@@ -1,0 +1,13 @@
+name: 'Print Your Name'
+description: 'Say hello with name'
+inputs:
+  name:  # name of user
+    description: 'Print Your Name'
+    required: true
+    default: 'Kajal'
+outputs:
+  hello_msg: # id of output
+    description: 'The hello msg string'
+runs:
+  using: 'node20'
+  main: 'index.js'
