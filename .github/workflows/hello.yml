@@ -1,0 +1,14 @@
+name: "Hello"
+
+on:
+  workflow_dispatch:
+
+jobs: 
+  printyourname:
+    runs-on: [self-hosted]
+    steps:
+      - uses: @actions/checkout@v2
+      - uses: ./
+        with:
+          name: "Kajal"
+          greet: "Hello greet"
