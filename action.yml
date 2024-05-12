@@ -1,5 +1,6 @@
 name: 'Print Your Name'
 description: 'Say hello with name'
+author: "Kajal Koli"
 inputs:
   name:  # name of user
     description: 'Print Your Name'
